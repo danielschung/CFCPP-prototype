@@ -1,0 +1,60 @@
+body {
+	margin:0 auto;
+	padding:0 auto;
+	font-family:"Open Sans", sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	height:47em;
+	margin:0;
+	position:relative;
+	top:-2.7em;
+}
+
+.header-container {
+	margin:0 auto;
+	text-align: center;
+	padding:0 auto;
+	position:relative;
+	top:50%;
+	transform:translateY(-50%);
+
+}
+
+h1	{
+	width:10em;
+	margin:1em auto 0em auto;
+	font-size:2.7em;
+
+}
+
+.number-of-members {
+	margin:1em auto;
+	height:1.2em;
+	width:10em;
+	font-size: 2em;
+}
+
+.start	{
+	display:block;
+	margin:0 auto;
+	height:2.3em;
+	width:7.7em;
+	font-size:1em;
+	border:none;
+	background-color: #DCDBDA;
+	-o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.start:hover {
+	background-color:#282828;
+	color:white;
+
+}

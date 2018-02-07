@@ -1,0 +1,30 @@
+main {
+	height:70em;
+	background-color:#E9EBEE
+}
+
+.main-container {
+	background-color:black;
+	height:30em;
+	width:80%;
+	margin:0 auto;
+	position:relative;
+	top:4.7em;
+	text-align:center;
+}
+
+.member-input {
+	margin:1em auto;
+	height:2em;
+	width:24%;
+	font-size: 1em;
+}
+
+
+.year, .gender{
+	height:2.4em;
+	width:24%;
+	position:relative;
+	top:50%;
+	font-size:1em;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<title>Prayer Partners</title>
+</head>
+
+<body>
+	<header>
+		<div class="header-container">
+			<h1>How many members do you have?</h1>
+			<input class="number-of-members" type="number" name="members" value="0">
+			<a href="#started" data-scroll class="start"><button class="start">Start</button></a>
+		</div>
+	</header>
+
+	<main id="started">
+		<div class="main-container">
+			<form class="form">
+				<div class="form-container">
+					<input class="member-input" type="text" name="firstname" placeholder="First Name"/>
+					<input class="member-input" type="text" name="lastname" placeholder="Last Name"/>
+					<select class="year">
+						<option value="1">Freshman</option>
+						<option value="2">Sophomore</option>
+						<option value="3">Junior</option>
+						<option value="4">Senior</option>
+						<option value="5">Super Senior</option>
+						<option value="6">Career</option>
+					</select>
+					<select class="gender">
+						<option value="male">Male</option>
+						<option value="female">Female</option>
+					</select>
+				</div>
+
+			</form>
+			
+		</div>
+
+	</main>
+
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>    
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script>var scroll = new SmoothScroll('a[href*="#"]',
+    {
+    	speed:1000,
+    }
+	);</script>
+
+
+</body>
+</html>
