@@ -2,6 +2,7 @@ body {
 	margin:0 auto;
 	padding:0 auto;
 	font-family:"Open Sans", sans-serif;
+	height:auto;
 }
 
 a {
@@ -29,6 +30,8 @@ h1	{
 	width:10em;
 	margin:1em auto 0em auto;
 	font-size:2.7em;
+	position:relative;
+	top:-1em;
 
 }
 
@@ -57,4 +60,11 @@ h1	{
 	background-color:#282828;
 	color:white;
 
+}
+
+.link {
+	margin:0 auto;
+	height:2.3em;
+	width:7.7em;
+	border:none;
 }
