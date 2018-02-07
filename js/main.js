@@ -19,6 +19,8 @@ $(document).ready(function() {
 		$(".start").click();
 	})
 
+	// #TODO; Fix multiplcation bug, possibly clone
+
 });
 
 function getMemberInputValue() {
