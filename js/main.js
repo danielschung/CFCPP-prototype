@@ -1,5 +1,11 @@
 $(document).ready(function() {
 
+	$("header").hide();
+	$("main").hide();
+	$("header").fadeIn(1500);
+	$("h1").animate({top:"0em"},1100, "swing");
+	$("main").show();
+
 	$(".start").click(function() {
 		var memberInputValue = getMemberInputValue();
 		var clone = $(".form-container");
