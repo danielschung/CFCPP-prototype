@@ -40,6 +40,14 @@ h1	{
 	height:1.2em;
 	width:10em;
 	font-size: 2em;
+	text-align:center;
+
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
 }
 
 .start	{
