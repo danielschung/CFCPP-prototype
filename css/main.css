@@ -12,6 +12,10 @@ main {
 	text-align:center;
 }
 
+#started {
+	padding-bottom:5em;
+}
+
 .form-container {
 	background-color:#FFFFFF;
 	margin:0.7em;
@@ -54,4 +58,12 @@ main {
 	background-color:#282828;
 	color:white;
 
+}
+
+/*-------Mobile Rules-------*/
+
+@media only screen and (max-width: 777px) {
+    .main-container {
+        width:100%;
+    }
 }
