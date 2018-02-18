@@ -12,6 +12,7 @@ $(document).ready(function() {
 		for (var i = 0; i < memberInputValue - 1; i++) {
 			clone.clone().appendTo(".form");
 		}
+		$("#started").css("height","auto");
 	})
 
 	$(".number-of-members").keypress(function(e) {
